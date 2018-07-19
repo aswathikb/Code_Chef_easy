@@ -7,7 +7,7 @@ int main() {
     cin>>t;
     while(t--){
         cin>>N;
-        c=N;
+        c = N;
         while(c--)
             cin>>a;
             cout<<N*(N-1)/2<<endl;
