@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+    long long int a,b;
+    cin>>a;
+    b=a%6;
+    if(b==0||b==1||b==3)
+        cout<<"yes";
+        else
+    cout<<"no";
+    
+	// your code goes here
+	return 0;
+}
